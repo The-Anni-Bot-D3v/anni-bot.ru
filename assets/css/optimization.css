@@ -1,0 +1,353 @@
+/* Full HD */
+@media screen and (max-width: 1920px) and (min-width: 1080px) {
+    .footer {
+        padding: 3% 0;
+        top: 73.6%;
+    }
+}
+/* Промежутачная адоптация */
+@media screen and (max-width: 750px) and (min-width: 529px) {
+    .btn {
+        margin-top: 5%;   
+    }
+    .Anniavatarhome {
+        margin-top: 5%;
+    }
+    .fa-discord {
+        margin-top: 1.5%;
+    }
+    .fa-money-check-alt {
+        margin-top: 1.5%;
+    }
+    .fa-user-astronaut {
+        margin-top: 1.5%;
+    }
+    .fa-robot {
+        margin-top: 1.5%;
+    }
+    .logotext {
+        margin-top: 0.8%;
+    }
+    .Anniheadlogo {
+        margin-top: 1.2%;
+    }
+}
+/* Optimized for resolution 767 */
+@media (max-width: 767px) {
+    .header {
+        position: absolute;
+        width: 640px;
+        height: 60px;
+        display: block;
+        margin-left: 7%;
+        margin-top: 0.2%;
+        background: #1c1c22;
+        border-radius: 15px;
+    }
+    .Anniheadlogo {
+        position: absolute;
+        top: 1.9%;
+        left: 12%;
+        width: 45px;
+        height: 45px;
+        border-radius: 999px;
+        box-shadow: 0 0 0 3px #fff, 0 0 8px rgb(247, 159, 255);
+    }
+    .logotext {
+        font-family: 'Encode Sans SC', sans-serif;
+        position: absolute;
+        font-size: 40px;
+        top: 2%;
+        left: 20%;
+        color: #fff;
+    }
+    .fa-robot {
+        color: #fff;
+        font-size: 25px;
+        position:absolute;
+        left: 34%;
+        top: 3.4%;
+    }
+    .fa-discord {
+        color: #fff;
+        font-size: 25px;
+        position:absolute;
+        left: 73%;
+        top: 3.4%;
+    }
+    .fa-money-check-alt {
+        color: #fff;
+        font-size: 25px;
+        position:absolute;
+        left: 79%;
+        top: 3.4%;
+    }
+    .fa-user-astronaut {
+        top: 3.4%;
+        left: 40%;
+    }
+    .Anniavatarhome {
+        top: 13%;
+        left: 63%;
+        width: 256px;
+        height: 256px;
+    }
+    .Hometext1 {
+        top: 8%;
+        left: 9%;
+        font-size: 25px;
+    }
+    .Hometext2 {
+        top: 17%;
+        left: 9%;
+        font-size: 20px;
+    }
+    .Anniavatarhome {
+        background: url(https://cdn.discordapp.com/avatars/817889533345136640/5c591bae1a5d7048dfcdb4981310f998.png?size=128)repeat-y;
+        width: 128px;
+        height: 128px;
+        top: 8.9%;
+        left: 70%;
+        box-shadow: 0 0 0 3px #fff, 0 0 12px rgb(244, 122, 255);
+    }
+    @keyframes moveY {
+        to {
+            transform: translateY(30px);   
+        }
+    }
+    .animec2 {
+        background: url(https://media.discordapp.net/attachments/848210582070099988/868666808289357864/imgonline-com-ua-Resize-9hkj7ck7B5cY1B.png?width=309&height=375);
+        width: 300px;
+        height: 300px;
+        top: 270%;
+        left: 3%;
+    }
+    .animec1 {
+        background: url(https://media.discordapp.net/attachments/848210582070099988/868670533523374150/imgonline-com-ua-Resize-7N9gLGPeowT.png?width=159&height=225);
+        width: 170px;
+        height: 230px;
+    }
+    @keyframes moveX {
+        from {
+            transform: translateX(px);
+        }
+        to {
+            transform: translateX(3px);
+        }
+    }
+    .animei1 {
+        /* background: url(https://media.discordapp.net/attachments/848210582070099988/868666808289357864/imgonline-com-ua-Resize-9hkj7ck7B5cY1B.png?width=309&height=375); */
+        width: 300px;
+        height: 300px;
+        top: 11%;
+    }
+    .btn {
+        top: 30%;
+        left: 9%;
+        padding: 15px 15px;
+    }
+    .footer {
+        padding: 11.4% 0;
+        top: 67.7%;
+    }
+    .footer h4 {
+        left: 4.4%;
+    }
+    .footer h4:nth-of-type(1) {
+        top: -7%;
+        left: 10%;
+    }
+    .copy {
+        margin-top: -32%;
+        margin-top: 5%;
+        font-size: -9rem;
+    }
+    .hr1 {
+        top: 47%;
+        left: 25%;
+        width: 50%;
+    }
+    /* command */
+    .footer1 {
+        padding: 11.4% 0;
+        top: 300.7%;
+    }
+    .footer1 h4 {
+        left: 4.4%;
+    }
+    .footer1 h4:nth-of-type(1) {
+        top: -7%;
+        left: 10%;
+    }
+    .copy2 {
+        margin-top: 5%;
+        font-size: -9rem;
+    }
+    .hr2 {
+        top: 55%;
+        left: 25%;
+        width: 50%;
+    }
+    .fruitellaavatar {
+        background: url(https://cdn.discordapp.com/avatars/390128735883624468/f7ad646bbd79e4a69d373e651d9c725c.png?size=128);
+        left: 10%;
+        width: 128px;
+        height: 128px;
+    }
+    .zulllsavatar {
+        background: url(https://cdn.discordapp.com/avatars/665831333708300318/a20c7d2aa9d36cc7d566cc52c3193739.webp?size=128);
+        left: 70%;
+        width: 128px;
+        height: 128px;
+    }
+    .developer {
+        left: 27%;
+    }
+    .footerf {
+        top: 100%;
+    }
+    .animef1 {
+        background: url(https://media.discordapp.net/attachments/848210582070099988/868666808289357864/imgonline-com-ua-Resize-9hkj7ck7B5cY1B.png?width=309&height=375);
+        width: 300px;
+        height: 300px;
+        top: 70%;
+    }
+    .footerf {
+        top: 140%;
+    }
+}
+/* Optimized for resolution 750 */
+@media (max-width: 750px) {
+    .btn {
+        top: 26.8%;
+    }
+    .fa-discord {
+        top: 2%;
+    }
+    .fa-money-check-alt {
+        top: 2%; 
+    }
+    .fa-robot {
+        top: 2%;
+    }
+    .fa-user-astronaut {
+        top: 2%;
+    }
+    .logotext {
+        top: 1%;
+    }
+    .Anniheadlogo {
+        top: 0.9%;
+    }
+    .footer {
+        top: 68.2%;
+    }
+}
+/* Optimized for resolution 360 */
+@media (max-width: 360px) {
+    .header {
+        top: 2.8%;
+        left: -2.6%;
+        height: 50px;
+        width: 330px;
+    }
+    .animei1 {
+        /* background: url(https://media.discordapp.net/attachments/848210582070099988/868666460686417921/imgonline-com-ua-Resize-QtzCubmJmm6US.png?width=124&height=150); */
+        width: 130px;
+        height: 150px;
+        top: 63%;
+        left: 3%;
+    }
+    .Anniavatarhome{
+        background: url(https://cdn.discordapp.com/avatars/817889533345136640/5c591bae1a5d7048dfcdb4981310f998.png?size=64)repeat-y;
+        height: 64px;
+        width: 64px;
+        left: 80%;
+        top: 12%;
+    }
+    .Anniheadlogo {
+        background: url(https://cdn.discordapp.com/avatars/817889533345136640/5c591bae1a5d7048dfcdb4981310f998.png?size=32)repeat-y;
+        height: 32px;
+        width: 32px;
+        left: 9%;
+        top: 4%;
+    }
+    .animec2 {
+        top: 260%;
+    }
+    .animec1 {
+        background: unset;
+        left: 3px;
+        top: 1px;
+    }
+    .logotext {
+        font-size: 20px;
+        top: 4.5%;
+        left: 20%;
+    }
+    .fa-robot {
+        font-size: 16px;
+        left: 34%;
+        top: 5.5%;
+    }
+    .fa-user-astronaut {
+        font-size: 16px;
+        left: 42%;
+        top: 5.5%;
+    }
+    .fa-discord {
+        font-size: 16px;
+        left: 77%;
+        top: 5.5%;
+    }
+    .fa-money-check-alt {
+        font-size: 16px;
+        left: 83%;
+        top: 5.5%;
+    }
+    .Hometext1 {
+        font-size: 13px;
+        top: 10%;
+        left: 8%;
+    }
+    .Hometext2 {
+        font-size: 13px;
+        top: 15%;
+        left: 8%;
+    }
+    .btn {
+        top: 28%;
+        width: 60px;
+        height: 10px;
+        font-size: 8px;
+        line-height: 10px;
+        text-align: center;
+    }
+    .footer {
+        padding: 18.3% 0;
+        top: 83.5%;
+    }
+    .footer h4 {
+        top: -5px;
+        font-size: 12px;
+        left: -3px;
+    }
+    .footer h4:nth-of-type(1) {
+        font-size: 12px;
+        top: -5%;
+        left: 10%;
+    }
+    .hr1 {
+        top: 50%;
+    }
+    .copy {
+        position: absolute;
+        left: 35%;
+        margin-top: 2%;
+        font-size: 10px;
+    }
+    .online:after {
+        width: 5px;
+        height: 5px;
+    }
+}

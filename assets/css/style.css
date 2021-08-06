@@ -1,0 +1,619 @@
+/* header */
+.header {
+    position: absolute;
+    width: 1080px;
+    height: 57px;
+    display: block;
+    margin-left: 20%;
+    margin-top: 0.2%;
+    background: #282833;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 16px 8px -7px rgba(0, 0, 0, 0.699);
+    -moz-box-shadow: 0px 16px 8px -7px rgba(0, 0, 0, 0.699);
+    box-shadow: 0px 16px 8px -7px rgba(0, 0, 0, 0.699);
+}
+
+.animei1 {
+    background: url(https://media.discordapp.net/attachments/807237421728792576/868659084637900832/b81a3f7e65b63dbaaf96cccae5ll2444e4.png?width=562&height=682);
+    position: absolute;
+    top: 50%;
+    left: -4%;
+    width: 470px;
+    height: 682px;
+    transform: scaleX(-1);
+    animation-name: Animeee;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Animeee {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(7px);
+    }
+}
+/* Иконки */
+.fa-robot {
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    left: 31%;
+    top: 3%;
+    transition: 1s;
+}
+.fa-robot:hover {
+    color: rgba(255, 255, 255, 0.623);
+    transition: 1s;
+}
+.fa-language {
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    left: 67%;
+    top: 3%;
+    transition: 1s;
+}
+.fa-language:hover {
+    color: rgba(255, 255, 255, 0.623);
+    transition: 1s;
+}
+.fa-discord {
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    left: 70%;
+    top: 3%;
+    transition: 1s;
+}
+.fa-discord:hover {
+    color: rgba(255, 255, 255, 0.623);
+    transition: 1s;
+}
+.fa-money-check-alt {
+    color: #fff;
+    font-size: 25px;
+    position:absolute;
+    left: 73%;
+    top: 2.9%;
+    transition: 1s;
+}
+.fa-money-check-alt:hover {
+    color: rgba(255, 255, 255, 0.603);
+    transition: 1s;
+}
+.fa-user-astronaut {
+    color: #fff;
+    font-size: 25px;
+    position:absolute;
+    left: 34%;
+    top: 3%;
+    transition: 1s;
+}
+.fa-user-astronaut:hover {
+    color: rgba(255, 255, 255, 0.623);
+    transition: 1s;
+}
+
+/* Аватарки */
+.Anniheadlogo {
+    background: url(https://a.radikal.ru/a24/2107/75/3150d40beefb.jpg)repeat-y;
+    position: absolute;
+    top: 1.7%;
+    left: 21.3%;
+    width: 45px;
+    height: 45px;
+    border-radius: 999px;
+    box-shadow: 0 0 0 3px #fff, 0 0 9px rgb(244, 122, 255);
+}
+.Anniavatarhome {
+    background: url(https://cdn.discordapp.com/avatars/817889533345136640/5c591bae1a5d7048dfcdb4981310f998.png?size=256)repeat-y;
+    position: absolute;
+    top: 9%;
+    left: 60%;
+    width: 256px;
+    height: 256px;
+    border-radius: 999px;
+    box-shadow: 0 0 0 3px #fff, 0 0 30px rgb(244, 122, 255);
+    animation-name: moveY;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes moveY {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(40px);   
+    }
+}
+/* Текст */
+.logotext {
+    font-family: 'Encode Sans SC', sans-serif;
+    position: absolute;
+    font-size: 40px;
+    top: 1.4%;
+    left: 24.7%;
+    color: #fff;
+    text-decoration: none;
+}
+.Hometext1 {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    font-size: 35px;
+    color: #fff;
+    top: 6%;
+    left: 20.8%;
+}
+.Hometext2 {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    top: 14%;
+    left: 20.8%;
+}
+/* бок */
+::-webkit-scrollbar {
+    width: 3px;
+    color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+}
+  .rectangle {
+      background-color: rgb(113, 23, 173);
+      width: 100%;
+      height: 75px;
+      box-shadow: 0 0 15px rgb(255, 255, 255);
+      padding: 10;
+  }
+
+/* Онлайн */
+.online{
+	padding-right: 2px;
+}
+.online:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    animation-name: blink;
+    animation-name: blink;
+    animation-timing-function: linear;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;  
+    background-color: #43b581;
+}
+@keyframes blink {
+    50%{
+        opacity: 0;
+    }
+}
+
+/* Кнопки */
+.btn {
+    position: absolute;
+    top: 33%;
+    left: 20.8%;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700 !important;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    text-shadow: none !important;
+    text-decoration: none;
+}
+  .btn-white {  
+    color: rgb(255, 255, 255);
+    border: 2px solid #f2afff69;
+  }
+  .btn-white:hover, .btn-white:focus{
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.795);
+    transition: 1.2s;
+    border-color: #ea82ff;
+  }
+  .btn-white:active {
+    color: #000;
+    background: rgba(255, 255, 255, 0.808);
+    border-color: #ea82ff
+  }
+  .btn-white.btn-outline {
+    color: rgba(255, 255, 255, 0.808);
+    border: 2px solid #fff;
+  }
+  .btn-white.btn-outline:hover, .btn-white.btn-outline:focus, .btn-white.btn-outline:active {
+    background:rgba(255, 255, 255, 0.897);
+    color: #000 !important;
+    border: 2px solid #fff;
+  }
+
+/* footer */
+.footer {
+    border-top: 1px solid #212529;
+    background: #0e0d0d;
+    padding: 3% 0;
+    width: 100%;
+    position: absolute;
+    margin-top: -0.1%;
+    left: 0%;
+}
+.footer h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+    top: 3%;
+    left: 19%;
+    position: absolute;
+}
+.footer h4:nth-of-type(1) {
+    background: linear-gradient(to left, #f69ec4, #ff2b8e 100%);
+    position: absolute;
+    top: -3%;
+    left: 21%;
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;
+}
+.footer ul li:not(:last-child) {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.footer- ul li a {
+    position: absolute;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.footer ul li a, .footer ul li {
+    list-style-type: none;
+    color: #bbbbbb;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+.footer ul li:hover {
+    padding-left: 8px;
+}
+.hr1 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.404);
+    top: 64%;
+    left: 34%;
+    width: 600px;
+}
+.copy {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    position:relative;
+    top: 64px;
+    left: -0.3%;
+    margin-top: 70px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.copy span a {
+    color: rgb(255, 104, 255);
+    text-decoration: none;
+}
+.copy span a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+    text-decoration: none;
+}
+/* Команды */
+.animec2 {
+    background: url(https://media.discordapp.net/attachments/807237421728792576/868659084637900832/b81a3f7e65b63dbaaf96cccae5ll2444e4.png?width=562&height=682);
+    position: absolute;
+    top: 200%;
+    left: -7%;
+    width: 470px;
+    height: 682px;
+    transform: scaleX(-1);
+    animation-name: Animeee;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Animeee {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(13px);
+    }
+}
+.animec1 {
+    background: url(https://media.discordapp.net/attachments/848210582070099988/868648519194513468/arknights36.png?width=482&height=682);
+    position: absolute;
+    top: 27%;
+    left: 77.4%;
+    width: 433px;
+    height: 682px;
+    transform: scaleX(-1);
+    animation-name: Anime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Anime {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(30px);
+    }
+}
+.faqs {
+    font-family: "Raleway", Arial, sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 28.7%;
+    min-height: 50vh;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq {
+    min-width: 150%;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question h3 {
+    font-size: 21px;
+}
+.answer {
+    font-family: "Raleway", Arial, sans-serif;
+    transition: max-height 1s ease;
+    max-height: 0;
+    overflow: hidden;
+}
+.answer p {
+    padding-top: 0.1rem;
+    line-height: 1.1;
+    font-size: 18px;
+}
+.faq.active .answer {
+    max-height: 435px;
+}
+.faq div i {
+    transition: all .3s ease;
+}
+.faq.active div i {
+    transform: rotate(-90deg);
+}
+.faq-link {
+    color: #fff;
+}
+.animef1 {
+    background: url(https://media.discordapp.net/attachments/807237421728792576/868659084637900832/b81a3f7e65b63dbaaf96cccae5ll2444e4.png?width=562&height=682);
+    position: absolute;
+    top: 47.6%;
+    left: -4%;
+    width: 470px;
+    height: 682px;
+    transform: scaleX(-1);
+    animation-name: Animeee;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Animeee {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(12px);
+    }
+}
+
+/* footer */
+.footer1 {
+    border-top: 1px solid #212529;
+    background: #0e0d0d;
+    padding: 3% 0;
+    width: 100%;
+    position: absolute;
+    top: 250.4%;
+    left: 0%;
+}
+.footer1 h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+    top: 3%;
+    left: 19%;
+    position: absolute;
+}
+.footer1 h4:nth-of-type(1) {
+    background: linear-gradient(to left, #f69ec4, #ff2b8e 100%);
+    position: absolute;
+    top: -3%;
+    left: 21%;
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;
+}
+.footer1 ul li:not(:last-child) {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.footer1- ul li a {
+    position: absolute;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.footer1 ul li a, .footer1 ul li {
+    list-style-type: none;
+    color: #bbbbbb;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+.footer1 ul li:hover {
+    padding-left: 8px;
+}
+.hr2 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.404);
+    top: 64%;
+    left: 34%;
+    width: 600px;
+}
+.copy2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    position:relative;
+    top: 74px;
+    left: -0.3%;
+    margin-top: 70px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.copy2 span a {
+    color: rgb(255, 104, 255);
+    text-decoration: none;
+}
+.copy2 span a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+    text-decoration: none;
+}
+
+/* FAQ */
+.developer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 350%;
+    position: absolute;
+    top: 13%;
+    left: 41.5%;
+    color: #fff;
+}
+.developer1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 350%;
+    position: absolute;
+    top: 55%;
+    left: 58%;
+    color: #fff;
+}
+.developer1t {
+    font-family: 'Manrope', sans-serif;
+    font-size: 170%;
+    position: absolute;
+    color: #fff;
+    top: 62%;
+    left: 58%;
+}
+.zulllsavatar {
+    background: url(https://cdn.discordapp.com/avatars/665831333708300318/a20c7d2aa9d36cc7d566cc52c3193739.webp?size=256);
+    position: absolute;
+    top: 27%;
+    left: 58%;
+    width: 256px;
+    height: 256px;
+    box-shadow: 0 0 0 3px #fff, 0 0 30px rgba(244, 122, 255, 0.507);
+}
+.developer2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 350%;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    color: #fff;
+}
+.developer2t {
+    font-family: 'Manrope', sans-serif;
+    font-size: 170%;
+    position: absolute;
+    color: #fff;
+    top: 62%;
+    left: 25.3%;
+}
+.fruitellaavatar {
+    background: url(https://cdn.discordapp.com/avatars/390128735883624468/f7ad646bbd79e4a69d373e651d9c725c.png?size=256);
+    position: absolute;
+    top: 27%;
+    left: 25.5%;
+    width: 256px;
+    height: 256px;
+    box-shadow: 0 0 0 3px #fff, 0 0 30px rgba(244, 122, 255, 0.507); 
+}
+/* footer */
+.footerf {
+    border-top: 1px solid #212529;
+    background: #0e0d0d;
+    padding: 3% 0;
+    width: 100%;
+    position: absolute;
+    margin-top: -0.1%;
+    left: 0%;
+}
+.footerf h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+    top: 3%;
+    left: 19%;
+    position: absolute;
+}
+.footerf h4:nth-of-type(1) {
+    background: linear-gradient(to left, #f69ec4, #ff2b8e 100%);
+    position: absolute;
+    top: -3%;
+    left: 21%;
+    background-position: 0 100%;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;
+}
+.footerf ul li:not(:last-child) {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.footerf- ul li a {
+    position: absolute;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+.footerf ul li a, .footerf ul li {
+    list-style-type: none;
+    color: #bbbbbb;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+.footerf ul li:hover {
+    padding-left: 8px;
+}
