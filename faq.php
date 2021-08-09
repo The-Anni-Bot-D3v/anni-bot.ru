@@ -2,6 +2,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta content="Anni-Developer" property="og:title">
+    <meta content='https://raw.githubusercontent.com/DevItsMB/DevItsMB/master/verified_developer_badge.png' property='og:image'>
+    <meta content="Мой создатель" property="og:description">
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -3,6 +3,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta content="Anni-Command" property="og:title">
+    <meta content='https://cdn.discordapp.com/avatars/817889533345136640/5c591bae1a5d7048dfcdb4981310f998.webp?size=1024' property='og:image'>
+    <meta content="Мои команды" property="og:description">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +27,7 @@
             <footer class="footer1">
                 <hr class="hr2"></hr>
                 <div class="copy2">
-                    <p>© The<span><a href="https://zullls.ru"> Anny </a></span>Developer</p>
+                    <p>© The<span><a href="https://zullls.ru"> Anni </a></span>Developer</p>
                     <p>Date: <?=date(d.'.'.m.'.'.Y)?></p>
                 </div>
                 <h4><?=$lang['information']?><h4>

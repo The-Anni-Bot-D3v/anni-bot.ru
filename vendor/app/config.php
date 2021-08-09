@@ -164,7 +164,7 @@ if($_SESSION['lang'] == 'en'){
         ⨠ a!suicide - kill yourself</br>
         ⨠ a!cry @user -cry for someone</br>
         ⨠ a!cry - cryning</br>
-        ⨠ a!wave - wave</br>",
+        ⨠ a!wave - hand wave</br>",
 
         "Utilits" => "Utilits",
         "utilitscomm" => "⨠ a!stats - technical information Anni</br>
@@ -195,7 +195,7 @@ if($_SESSION['lang'] == 'en'){
         — Contact me: ",
         // FAQ
         "developertext" => "Developers",
-        "Developer" => "Developer WuW",
+        "Developer" => "Developer uwu",
         "FrutDesc" => "Motivator",
         // title
         "information" => "Information",
